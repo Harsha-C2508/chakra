@@ -45,7 +45,8 @@ const Form = () => {
                 </Menu>
             </Box>
             <Box>
-              <Button colorScheme='red' onClick={()=>{
+              <Button bg="red"
+                 onClick={()=>{
                 setIsLoading(true)
                 setTimeout(()=>{
                     setIsLoading(false)

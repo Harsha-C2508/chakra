@@ -13,7 +13,12 @@ const Grid = () => {
             xl: 5
         }}>
             {items.map((item)=>(
-                <Box key={item}>{item}</Box>
+                <Box key={item} 
+                     bg='brand.800' 
+                     gap='1rem' 
+                     width='90%' 
+                     marginBottom='10px'
+              >{item}</Box>
             ))}
         </SimpleGrid>
     </Box>

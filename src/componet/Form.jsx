@@ -45,7 +45,7 @@ const Form = () => {
                 </Menu>
             </Box>
             <Box>
-              <Button bg="red"
+              <Button bg="brand.900"
                  onClick={()=>{
                 setIsLoading(true)
                 setTimeout(()=>{
